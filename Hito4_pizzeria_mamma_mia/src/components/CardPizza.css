@@ -1,0 +1,53 @@
+/* src/components/CardPizza.css */
+.card-pizza {
+  width: 100%;
+  max-width: 240px;  /* Ajustamos el ancho máximo de la tarjeta */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  transition: transform .2s ease-in-out;
+  margin: 0;  /* Sin márgenes extra */
+}
+
+.card-pizza:hover {
+  transform: translateY(-6px);
+}
+
+.card-pizza img {
+  width: 100%;
+  height: 130px;  /* Altura ajustada para una mejor proporción */
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+.card-content h3 {
+  margin: 8px 0 4px;
+  text-transform: capitalize;
+}
+
+.card-desc {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.card-price {
+  margin: 6px 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card-ing-title {
+  margin: 6px 0 4px;
+}
+
+.card-ing-list {
+  margin: 0;
+  padding-left: 18px;
+}
